@@ -24,6 +24,9 @@ repositories {
   mavenCentral()
 }
 
+// Security override (managed version of Spring Boot)
+ext['spring-framework.version'] = '7.0.9'
+
 ext.checkstyleVersion = "12.3.1"
 ext.springJavaformatCheckstyleVersion = "0.0.47"
 ext.webjarsLocatorLiteVersion = "1.1.3"
